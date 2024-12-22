@@ -1,0 +1,13 @@
+{
+    "name":"Thejas Hari",
+    "age": 25,
+    "city": "Hyderabad",
+    "hobbies": ["Reading", "Traveling", "Cooking"],
+    "isEmployed": true,
+    "languages": ["English", "Hindi", "Tamil"],
+    "education": {
+        "degree": "Bachelor's",
+        "major": "Computer Science",
+        "university": "XYZ University"
+    }
+}

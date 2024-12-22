@@ -86,5 +86,7 @@ app.get('/auth/logout', (req, res) => {
 const port = process.env.PORT || 3333;
 
 app.listen(port,()=>{
-    console.log(`Server is running on port ${port}`);
+    if(process.env.NODE_ENV === 'local') {
+        console.log(`Server is running on port ${port}`);
+    }
 });
